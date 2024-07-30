@@ -1,14 +1,14 @@
 {
 	"name": "oceancodex/wpsp-cache",
-	"version": "8.1.0",
+	"version": "8.0.0",
 	"description": "WordPress Starter Plugin - Cache",
 	"keywords": [
 	],
 	"license": "MIT",
 	"require": {
-		"php": "^8.1",
-		"symfony/cache": "^v6.4.10",
-		"oceancodex/wpsp-core": "^8.1.0"
+		"php": "^8.0",
+		"symfony/cache": "^v6.0.19",
+		"oceancodex/wpsp-core": "^8.0.0"
 	},
 	"config": {
 		"sort-packages": true
