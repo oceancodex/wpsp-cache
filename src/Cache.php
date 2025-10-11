@@ -22,7 +22,7 @@ class Cache extends BaseInstances {
 	 *
 	 */
 
-	public function prepare(): ?self {
+	public function prepare() {
 		$this->adapter = (new Adapter(
 			$this->funcs->_getMainPath(),
 			$this->funcs->_getRootNamespace(),
@@ -35,7 +35,7 @@ class Cache extends BaseInstances {
 	 *
 	 */
 
-	public function global(): void {
+	public function global() {
 		$globalCache = $this->funcs->_getAppShortName();
 		$globalCache = $globalCache . '_cache';
 		global ${$globalCache};
@@ -59,7 +59,7 @@ class Cache extends BaseInstances {
 		}
 	}
 
-	public function _getCacheKey($key): string {
+	public function _getCacheKey($key) {
 		return $this->funcs->_getDBTablePrefix() . $key;
 	}
 
@@ -102,11 +102,11 @@ class Cache extends BaseInstances {
 		}
 	}
 
-	public function _reset(): void {
+	public function _reset() {
 		$this->adapter->reset();
 	}
 
-	public function _clear($prefix = null): void {
+	public function _clear($prefix = null) {
 		if ($prefix) {
 			$this->adapter->clear($prefix);
 		}
