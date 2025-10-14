@@ -7,8 +7,8 @@
 	"license": "MIT",
 	"require": {
 		"php": "^8.3",
-		"symfony/cache": "^v7.3.2",
-		"doctrine/dbal": "^4.3.3",
+		"symfony/cache": "^v7.3.4",
+		"doctrine/dbal": "^4.3.4",
 		"oceancodex/wpsp-core": "^8.3.0"
 	},
 	"config": {
