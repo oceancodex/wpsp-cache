@@ -14,7 +14,7 @@ class Adapter extends BaseInstances {
 
 	private string $store;
 
-	protected function afterConstruct() {
+	public function afterConstruct() {
 		$this->store = $this->funcs->_env('CACHE_STORE', true);
 	}
 
