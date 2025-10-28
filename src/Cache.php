@@ -26,7 +26,10 @@ class Cache extends BaseInstances {
 		$this->adapter = (new Adapter(
 			$this->funcs->_getMainPath(),
 			$this->funcs->_getRootNamespace(),
-			$this->funcs->_getPrefixEnv()
+			$this->funcs->_getPrefixEnv(),
+			[
+				'prepare_funcs' => true,
+			]
 		))->init($this->store, $this->connectionParams);
 		return $this;
 	}
