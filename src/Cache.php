@@ -57,7 +57,7 @@ class Cache extends BaseInstances {
 		catch (InvalidArgumentException $e) {
 			return $e->getMessage();
 		}
-		catch (\Exception $e) {
+		catch (\Throwable $e) {
 			return $e->getMessage();
 		}
 	}
@@ -87,7 +87,7 @@ class Cache extends BaseInstances {
 		catch (InvalidArgumentException $e) {
 			return $e->getMessage();
 		}
-		catch (\Exception $e) {
+		catch (\Throwable $e) {
 			return $e->getMessage();
 		}
 	}
@@ -100,7 +100,7 @@ class Cache extends BaseInstances {
 		catch (InvalidArgumentException $e) {
 			return $e->getMessage();
 		}
-		catch (\Exception $e) {
+		catch (\Throwable $e) {
 			return $e->getMessage();
 		}
 	}
