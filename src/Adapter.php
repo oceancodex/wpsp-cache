@@ -12,7 +12,7 @@ use WPSPCORE\Base\BaseInstances;
 
 class Adapter extends BaseInstances {
 
-	private string $store;
+	private $store;
 
 	public function afterConstruct() {
 		$this->store = $this->funcs->_env('CACHE_STORE', true);
