@@ -8,8 +8,7 @@
 	"require": {
 		"php": "^8.0",
 		"symfony/cache": "^v5.4.46",
-		"doctrine/dbal": "^3.10.3",
-		"oceancodex/wpsp-core": "^8.0.0"
+		"doctrine/dbal": "^3.10.3"
 	},
 	"config": {
 		"sort-packages": true
