@@ -7,7 +7,7 @@
 	"license": "MIT",
 	"require": {
 		"php": "^8.2",
-		"symfony/cache": "^v7.3.4",
+		"symfony/cache": "^v7.3.5",
 		"doctrine/dbal": "^4.3.4"
 	},
 	"config": {
