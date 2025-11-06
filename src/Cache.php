@@ -43,6 +43,7 @@ class Cache extends BaseInstances {
 		$globalCache = $globalCache . '_cache';
 		global ${$globalCache};
 		${$globalCache} = $this;
+		return $this;
 	}
 
 	/*
